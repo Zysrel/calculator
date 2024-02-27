@@ -1,14 +1,14 @@
-import 'package:calculator/calculator/data/repository/calculator_repository.dart';
-import 'package:flutter_test/flutter_test.dart';
+  import 'package:calculator/calculator/data/repository/calculator_repository.dart';
+  import 'package:flutter_test/flutter_test.dart';
 
-void main() {
-  late CalculatorRepository calculatorRepository;
-  setUp(() {
-    calculatorRepository = CalculatorRepository();
-  });
+  void main() {
+    late CalculatorRepository calculatorRepository;
+    setUp(() {
+      calculatorRepository = CalculatorRepository();
+    });
 
-  group('Addition', () {
-    test(
+    group('Addition', () {
+      test(
         'Addition:Given two numbers, When add method is called, Then the sum is calculated correctly',
         () {
       // Given
